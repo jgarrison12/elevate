@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="../css/utilities.css">
+  <link rel="stylesheet" href="./order-form.css">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  <title>Document</title>
+</head>
+<body>
+  <div class="navbar">
+    <p><a href="javascript:javascript:history.go(-1)"><i class="fas fa-chevron-left"></i> Back</a></p>
+  </div>
+  <div class="container">
+    <form name="Order Form" value="Order Form" method="POST" data-netlify="true">
+      <div class="section">
+        <h1>Become MORE</h1>
+        <p>When you say YES to yourself, you open your world up to incredible possibilites!</p>
+        <p><span>* Required</span></p>
+      </div>
+      <div class="section">
+        <p>Find the perfect system for YOUR budget and goals!</p>
+        <img src="../img/forms/xyngular-systems.jpg" alt="">
+      </div>
+      <div class="section name">
+        <p>Full Name <span>*</span></p>
+      <input type="text" name="First-name" placeholder="First name" required>
+      <input type="text" name="Last-name" placeholder="Last name" required>
+      </div>
+
+    
+    <div class="section kits">
+      <p>Pick your kit! (scroll down for individual product options)<span>*</span></p>
+      <div class="grid">
+        <div class="grid-item">
+          <img src="./img/ultimate.jpg" alt="">
+          <div class="grid-text">
+            <input type="checkbox" name="Kit" value="Ultimate" id="Ultimate">
+            <div class="grid-pricing">
+              <label for="Ultimate"><strong>Ultimate Kit $549</strong></label>
+              <p>13 products
+                <br>
+                 30-60 day supply and all you need to lose up to 15lbs in 8 days!
+                <br>
+                <strong>*PLUS*</strong>
+                <br>
+                 Get a $100 gift certificate towards your next order of $250+</p>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <img src="./img/ignite-trim.jpg" alt="">
+          <div class="grid-text">
+            <input type="checkbox" name="Kit" value="Ignite + Trimstix" id="Ignite + Trimstix">
+            <div class="grid-pricing">
+              <label for="Ignite + Trimstix"><strong>Ignite + Trimstix $413</strong></label>
+              <p>9 products
+                <br>
+                 30-45 day supply and all you need to lose up to 15lbs in 8 days!</p>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <img src="./img/ignite.jpg" alt="">
+          <div class="grid-text">
+            <input type="checkbox" name="Kit" value="Ignite" id="Ignite">
+            <div class="grid-pricing">
+              <label for="Ignite"><strong>Ignite Kit $349</strong></label>
+              <p> 9 products
+                <br>
+                 30-45 day supply and all you need to lose up to 15lbs in 8 days!</p>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <img src="./img/core.jpg" alt="">
+          <div class="grid-text">
+            <input type="checkbox" name="Kit" value="Core" id="Core">
+            <div class="grid-pricing">
+              <label for="Core"><strong>Core Kit $239</strong></label>
+              <p>30-45 day product supply of 5 of our top weight loss products</p>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <img src="./img/trio.jpg" alt="">
+          <div class="grid-text">
+            <input type="checkbox" name="Kit" value="Trim Trio" id="Trim Trio">
+            <div class="grid-pricing">
+              <label for="Trim Trio"><strong>Trim Down Trio $179</strong></label>
+              <p>30 day product supply of our protein shake, 3x fat burner and award winning Trimstix craving crusher!</p>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <img src="./img/powerpack.jpg" alt="">
+          <div class="grid-text">
+            <input type="checkbox" name="Kit" value="Power Pack" id="Power Pack">
+            <div class="grid-pricing">
+              <label for="Power Pack"><strong>Power Pack $178</strong></label>
+              <p>30-60 day supply of our best selling energy supplement, our rest and relax supplement and the award winning Trimstix craving crusher!</p>              
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <img src="./img/jumpstart.jpg" alt="">
+          <div class="grid-text">
+            <input type="checkbox" name="Kit" value="8 Day Jumpstart" id="8 Day Jumpstart">
+            <div class="grid-pricing">
+              <label for="8 Day Jumpstart"><strong>8 Day Jumpstart Kit $99 <br> (or get 2 kits for $189)</strong></label>
+              <p>an 8 day supply of our 6 jumpstart products: lean chocolate, xyng, flush, resist, trimstix and accelerate fat burner.</p>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <img src="./img/two-pack.jpg" alt="">
+          <div class="grid-text">
+            <input type="checkbox" name="Kit" value="Two Pack" id="Two Pack">
+            <div class="grid-pricing">
+              <label for="Two Pack"><strong>8 Day Jumpstart Kit - 2 pack $189</strong></label>
+              <p>2 packs of our 8 day supply of our 6 jumpstart products: lean chocolate, xyng, flush, resist, trimstix and accelerate fat burner.</p>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <img src="./img/cravings-crusher.jpg" alt="">
+          <div class="grid-text">
+            <input type="checkbox" name="Kit" value="Cravings Crusher" id="Cravings Crusher">
+            <div class="grid-pricing">
+              <label for="Cravings Crusher"><strong>Cravings Crusher $155</strong></label>
+              <p>a trio of our 3 best selling products to curb cravings and boost energy!</p>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <img src="./img/fab-fit5.jpg" alt="">
+          <div class="grid-text">
+            <input type="checkbox" name="Kits" value="Fab Fit 5" id="Fab Fit 5">
+            <div class="grid-pricing">
+              <label for="Fab Fit 5"><strong>Fab Fit 5 - $292</strong></label>
+              <p>5 of our top weight loss and energy products designed to get your weight loss journey off to a great start!</p>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <img src="./img/feel-better-live-better.jpg" alt="">
+          <div class="grid-text">
+            <input type="checkbox" id="feel-better-live-better" name="kits" value="feel-better-live-better">
+            <div class="grid-pricing">
+              <label for="feel-better-live-better"><strong>Feel Better. Live Better. $210</strong></label>
+              <p>4 of our top health products designed to support every day nutritional and health needs.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+    <div class="section">
+      <p>Flavor selections for certain kits</p>
+      <label><input type="checkbox" id="choc-punch" name="flavor" value="Chocolate / Fruit Punch">Trim Down Trio - CHOCOLATE shake and FRUIT PUNCH Trimstix</label>
+      
+      <label><input type="checkbox" id="choc-orange" name="flavor" value="Chocolate / Orange Pineapple">Trim Down Trio - CHOCOLATE shake and ORANGE PINEAPPLE Trimstix</label>
+      
+      <label><input type="checkbox" id="van-punch" name="flavor" value="Vanilla / Fruit Punch">Trim Down Trio - VANILLA shake and FRUIT PUNCH Trimstix</label>
+      
+      <label><input type="checkbox" id="van-orange" name="flavor" value="Vanilla / Orange Pineapple">Trim Down Trio - VANILLA shake and ORANGE PINEAPPLE Trimstix</label>
+      
+      <label><input type="checkbox" id="fruit-punch" name="flavor" value="Fruit Punch">Ignite + Trimstix: FRUIT PUNCH Trimstix</label>
+      
+      <label><input type="checkbox" id="orange-pine" name="flavor" value="Orange Pineapple">Ignite + Trimstix: ORANGE PINEAPPLE Trimstix</label>
+      
+      <label><input type="checkbox"  name="flavor" value="Fruit Punch">Power Pack: FRUIT PUNCH Trimstix</label>
+      
+      <label><input type="checkbox" name="flavor" value="Orange Pineapple">Power Pack: ORANGE PINEAPPLE Trimstix</label>
+    </div>
+
+
+      <div class="section">
+        <p>Individual Products</p>
+        <p>- prices listed are wholesale prices that come with your membership</p>
+        
+        <label><input type="checkbox" id="Accelerate with Thermolit Blend (30 count)">Accelerate with Thermolit Blend (30 count) - $39.99
+        </label>
+        <label><input type="checkbox" id="Advanced Omega (90 count)">Advanced Omega (90 count) - $39.99
+      </label>
+      <label><input type="checkbox" id="Axion (60-Count)">Axion Multinutrient (60 count) - $54.99
+      </label>
+      <label><input type="checkbox" id="Cardio (30 serving tub)">Cardio (30 serving tub) - $49.99
+      </label>
+      <label><input type="checkbox" id="Cheat (60-Count)">Cheat (60 count) - $49.99
+      </label>
+      <label><input type="checkbox" id="Flex (90 count)">Flex (90 count) - $29.99
+      </label>
+      <label><input type="checkbox" id="Flush (60-Count)">Flush (60 count) - $34.99
+      </label>
+      <label><input type="checkbox" id="Genesis Capsules (30 count)">Genesis capsules (30 count) - $41.99
+      </label>
+      <label><input type="checkbox" id="Genesis (liquid 30 servings)">Genesis (Liquid 30 servings) - $41.99
+      </label>
+      <label><input type="checkbox" id="Global Blend with Xanthones and Aloe (Liquid 30 servings)">Global Blend with Xanthones and Aloe (Liquid 30 servings) - $41.99
+      </label>
+      <label><input type="checkbox" id="Global Blend Classic (liquid 30 servings">Global Blend Classic (Liquid 30 servings) - $41.99
+      </label>
+      <label><input type="checkbox" id="Immune (120 count)">Immune (120 count) - $49.99
+      </label>
+      <label><input type="checkbox" id="Lean Vanilla (30-Serving)">Lean Vanilla (30 servings) - $74.99
+      </label>
+      <label><input type="checkbox" id="Lean Chocolate (30-Serving)">Lean Chocolate (30 servings) - $74.99
+      </label>
+      <label><input type="checkbox" id="Lean Meal (chocolate) (30-Serving)">Lean Meal (Chocolate flavor - 30 servings) - $74.99
+      </label>
+      <label><input type="checkbox" id="Osteo (120 count)">Osteo (120 count) - $34.99
+      </label>
+      <label><input type="checkbox" id="Prime for Men (90 count)">Prime for Men (90 count) - $69.99
+      </label>
+      <label><input type="checkbox" id="Probiotix (30 sticks)">Probiotix (30 sticks) - $44.99
+      </label>
+      <label><input type="checkbox" id="Resist Chews (30 chews)">Resist Chews (30 chews) - $39.99
+      </label>
+      <label><input type="checkbox" id="Shine for Women (90 count)">Shine for Women (90 count) - $69.99
+      </label>
+      <label><input type="checkbox" id="Spryng Lemon-Lime (15-Serving)">Spryng Lemon-Lime (15-Serving) - $49.99
+      </label>
+      <label><input type="checkbox" id="Spryng Tropical Fusion (15-Serving)">Spryng Tropical Fusion (15-Serving) - $49.99
+      </label>
+      <label><input type="checkbox" id="Trimstix (30-Serving)">Trimstix (30 servings) - $64.99
+      </label>
+      <label><input type="checkbox" id="TrimstixOrange Pineapple (30-Serving)">TrimstixOrange Pineapple (30-Serving) - $64.99
+      </label>
+      <label><input type="checkbox" id="XR2 (60-Count)">XR2 (60-Count) - $62.99
+      </label>
+      <label><input type="checkbox" id="Xyng (60-Count)">Xyng (60-Count) - $49.99
+      </label>
+      <label><input type="checkbox" id="Xypstix (30-Serving)">Xypstix (30-Serving) - $56.99
+      </label>
+      <label><input type="checkbox" id="Xypstix (15-Serving)">Xypstix (15-Serving) - $41.99
+      </label> 
+    </div>
+  
+
+      <div class="section locate">
+        <p>How did you find out about us? <span>*</span></p>
+      <label><input type="checkbox" id="facebook" name="How did you find us?" value="facebook">Facebook</label>
+      
+      <label><input type="checkbox" id="instagtram" name="How did you find us?" value="instagtram">Instagram</label>
+      
+      <label><input type="checkbox" id="pintrest" name="How did you find us?" value="pintrest">Pintrest</label>
+      
+      <label><input type="checkbox" id="google/search" name="How did you find us?" value="google/search">Google/Internet Search</label>
+      
+      <label><input type="checkbox" id="email" name="How did you find us?" value="email">Email</label>
+      
+      <label><input type="checkbox" id="campaign" name="How did you find us?" value="campaign">Sharing is caring campaign</label>
+      
+      <label><input type="checkbox" id="other" name="How did you find us?" value="other">Other: <input type="text"></label>
+      
+    </div>
+    <div class="section">
+      <p>Who is your coach/sponsor that told you about this? (If you do not know, you can just put N/A) <span>*</span></p>
+      <input class="answer" type="text" placeholder="Your Answer" name="coach/sponsor" required>
+    </div>
+    <div class="section">
+      <p>Email address <span>*</span></p>
+      <input class="answer" type="email" placeholder="Your Answer" name="email" required>
+    </div>
+    <div class="section">
+      <p>Cell phone - no spaces (Our virtual coach "Xander" is including with all our systems) <span>*</span></p>
+      <input class="answer" type="tel" placeholder="Your Answer" name="phone" required>
+    </div>
+    <div class="section">
+      <p>Shipping address (street, city, state, zip)  <span>*</span></p>
+      <input class="answer" type="text" placeholder="Your Answer" name="address" required>
+    </div>
+    <div class="section">
+      <p>Billing address (if different than shipping address)</p>
+      <input class="answer" type="text" placeholder="Your Answer" name="billing-address">
+    </div>
+    <div class="section">
+      <p>CC Number  <span>*</span></p>
+      <input class="answer" type="number" placeholder="Your Answer" name="credit-card" required>
+    </div>
+    <div class="section">
+      <p>Expiration  <span>*</span></p>
+      <input class="answer" type="month" placeholder="Your Answer" name="expiration" required>
+    </div>
+    <div class="section">
+      <p>CVV  <span>*</span></p>
+      <input class="answer" type="number" placeholder="Your Answer" name="CVV" required>
+    </div>
+    <div class="section">
+      <p>Do you have friends/family that need more energy, weight-loss, reduced stress and or improved athletic performance? <span>*</span></p>
+      <label for="yes"><input type="checkbox" id="yes" name="friends-family" value="yes">Oh my gosh YES!</label>
+
+      <label for="doubt-it"><input type="checkbox" id="no" name="friends-family" value="no">Doubt it.</label>
+    </div>
+    <div class="section">
+      <p>Membership options (price per year - gives you access to our rewards program to earn 10% back and/or also receive referral bonuses for sharing) <span>*</span></p>
+
+      <label for="not-ready"><input type="checkbox" id="not-ready" name="membership-options" value="not-ready">$14.95 member - not ready to share and get referral cash just yet</label>
+
+      <label for="ready"><input type="checkbox" id="ready" name="membership-options" value="ready">+$35 Referring member - I want to be able to earn cash for sharing! ($49.99 total)</label>
+    </div>
+    <div class="section misc">
+      <p>Misc information <span>*</span></p>
+      <div class="misc-options">
+        <label for="misc-info"><input type="checkbox" name="misc-info" required>I understand that all prices listed are plus any applicable tax/shipping. Shipping under $200 is $6.95 and all orders over $200 the shipping is free.</label>
+        
+        <label for="misc-info"><input type="checkbox" name="misc-info" required>I am over 18 years old</label>
+        
+        <label for="misc-info"><input type="checkbox" name="misc-info" required>I understand that if I do NOT receive a confirmation email within 24 hours I am to email alison@liveyourlifeelevated.com</label>
+      </div>
+    </div>
+    <div class="section">
+      <p><strong>Please feel free to reach out via email if you would like to set up a call to place your order over the phone or if you have any questions. I am happy to help in any way. I look forward to being on this health journey with you. Cheers!</strong></p>
+      <br>
+      <img src="../img/forms/order-footer-img.jpg" alt="">
+    </div>
+    <button type="submit" class="btn">Submit</button>
+  </form>
+  </div>
+</body>
+</html>

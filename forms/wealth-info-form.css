@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+:root {
+  --primary-color: #6cdfcc;
+  --primary-dark: #2dd1b6;
+  --primary-light: #abede2;
+  --secondary-color: #393e46;
+  --success-color: #2ecc71;
+  --error-color: #e74c3c;
+  --orange: #fab05e;
+  --teal: #6cdfcc;
+  --purple: #a383d2;  
+  --green: #8fcfa0;
+  --yellow: #fec24a;
+  --red: #e35151;
+  --blue: #b0e1e5;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p {
+  margin: 10px 0;
+}
+
+img {
+  width: 100%;
+}
+
+.navbar {
+  margin: 20px 50px;
+  font-size: 1.2rem;
+}
+
+
+.container {
+  margin: 75px auto;
+  box-shadow: 0px 20px 50px 10px rgba(50, 50, 50, .8);
+  border: 2px solid var(--yellow);
+  display: flex;
+  flex-direction: column;
+}
+
+.container .showcase {
+  height: 600px;
+}
+
+.container .showcase img {
+  height: 100%;
+  padding: 40px 0px;
+} 
+
+span {
+  color: red;
+}
+
+/* form */
+form {
+  display: flex;
+  flex-direction: column;
+}
+.form-control {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-control label {
+  padding: 10px 0px;
+}
+
+.form-control textarea {
+  padding: 5px 10px;
+  font-size: 1.2rem;
+}
+
+.form-control input {
+  font-size: 1.2rem;
+  padding: 5px 10px;
+}
+
+.form-control select {
+  font-size: 1.2rem;
+  padding: 5px 10px;
+}
+
+/* button */
+.btn {
+  width: 300px;
+  font-size: 1.2rem;
+  margin: 20px auto;
+  background-color: var(--yellow);
+  color: #fff;
+}
+
+
+
+@media (max-width:500px) {
+  .navbar {
+    margin: 20px 20px 0px;
+  }
+  
+  .container {
+    box-shadow: 0px 20px 50px 10px rgba(50, 50, 50, .5);
+    padding: 5px 20px;
+  }
+  
+  .container .showcase {
+    height: 300px;
+  }
+  
+  .container .showcase img {
+    height: 100%;
+    padding: 20px 0px;
+  } 
+
+  /* form */
+  .form-control {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-control label {
+    padding: 15px 0px;
+    margin: 10px 0px;
+  }
+
+  .form-control input {
+    font-size: 1.2rem;
+    padding: 5px 10px;
+  }
+
+  .btn {
+    width: 150px;
+  }
+  
+}

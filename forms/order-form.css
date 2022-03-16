@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+:root {
+  --primary-color: #6cdfcc;
+  --primary-dark: #2dd1b6;
+  --primary-light: #abede2;
+  --secondary-color: #393e46;
+  --success-color: #2ecc71;
+  --error-color: #e74c3c;
+  --orange: #fab05e;
+  --teal: #6cdfcc;
+  --purple: #a383d2;  
+  --green: #8fcfa0;
+  --yellow: #fec24a;
+  --red: #e35151;
+  --blue: #b0e1e5;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--purple);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 800px;
+}
+
+img {
+  width: 100%;
+  margin: 0px auto;
+}
+
+[type="checkbox"]:not(:checked),
+  [type="checkbox"]:checked {
+   cursor: pointer;
+  }
+
+  .navbar {
+    margin: 20px 50px;
+    font-size: 1.2rem;
+  }
+
+.header {
+  margin: 20px 50px;
+  font-size: 1.2rem;
+}
+
+.section {
+  padding: 20px;
+  line-height: 2rem;
+  background-color: #fff;
+  margin: 20px auto; 
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 5px var(--secondary-color);
+}
+
+h1 {
+  padding-bottom: 10px;
+}
+span {
+  color: red;
+}
+
+input {
+  margin: 0px 20px 0px 0px;
+  font-size: 1.1rem;
+  padding: 5px 10px;
+}
+
+input.answer {
+  border: none;
+  border-bottom: 2px solid rgb(200, 200, 200);
+  margin-top: 10px;
+  font-size: 1.1rem;
+  padding: 5px 10px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.name p{
+  padding: 10px 0;
+}
+
+.name input {
+  margin: 10px 0px;
+  max-width: 500px;
+  border: none;
+  border-bottom: 2px solid rgb(200, 200, 200);
+}
+
+.locate input {
+  margin: 10px 5px;
+  max-width: 500px;
+  border: none;
+  border-bottom: 2px solid rgb(200, 200, 200);
+}
+
+.grid .grid-item {
+  height: 100%;
+}
+
+.grid .grid-item img {
+  height: 300px;
+  box-shadow: 0px 0px 10px 0px var(--secondary-color);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 20px 0px;
+}
+
+.grid-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-text input:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  font-weight: bolder;
+  border-radius: 50%;
+}
+
+.grid-pricing {
+  text-align: center;
+}
+
+.grid-pricing label {
+  font-size: 1.2rem;
+}
+
+button {
+  background-color: var(--teal);
+  color: #fff;
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.misc-options label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+@media (max-width:500px) {
+  .navbar {
+    margin: 40px;
+  }
+}
